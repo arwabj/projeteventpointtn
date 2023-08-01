@@ -1,0 +1,36 @@
+{
+  "name": "autho",
+  "version": "1.0.0",
+  "description": "event.tn",
+  "main": "server.js",
+  "scripts": {
+    "front": "cd front && npm start",
+    "back": "nodemon server",
+    "dev": "concurrently \"npm run front\" \"npm rum back\""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoDB",
+    "mongoose",
+    "react",
+    "redux"
+  ],
+  "author": "arwabj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
